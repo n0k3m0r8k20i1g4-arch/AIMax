@@ -1,0 +1,28 @@
+export function createTasks() {
+  return [
+    { id: 1, name: "全体戦略を整理する", skill: "strategy", brief: "プロジェクトの優先順位を決める", priority: 10, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 2, name: "ワークフローを組む", skill: "workflow", brief: "AI同士の受け渡しを設計する", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 3, name: "市場を調べる", skill: "research", brief: "競合とトレンドを確認する", priority: 8, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 4, name: "紹介文を書く", skill: "writing", brief: "ホーム画面の説明文を作る", priority: 7, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 5, name: "コア機能を実装する", skill: "code", brief: "主要ロジックを実装する", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 6, name: "フロントを整える", skill: "frontend", brief: "見た目と操作性を作る", priority: 8, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 7, name: "バックエンドを整える", skill: "backend", brief: "内部の処理を安定させる", priority: 8, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 8, name: "文書を整理する", skill: "organize", brief: "情報を見やすくまとめる", priority: 6, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 9, name: "音声案内を作る", skill: "voice", brief: "音声の案内文を作る", priority: 5, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 10, name: "営業導線を改善する", skill: "sales", brief: "問い合わせから成約までの流れを作る", priority: 5, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 11, name: "品質をレビューする", skill: "review", brief: "誤りを見つけて修正する", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 12, name: "公開ページを作る", skill: "publish", brief: "すぐ見せられるページを作る", priority: 10, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 13, name: "データを分析する", skill: "analyze", brief: "数字から傾向を読む", priority: 7, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 14, name: "安全性を確認する", skill: "secure", brief: "危険な状態を検出する", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 15, name: "広告文を考える", skill: "marketing", brief: "反応率の高い文を作る", priority: 6, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 16, name: "多言語化する", skill: "translate", brief: "日本語以外にも対応する", priority: 6, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 17, name: "UXを改善する", skill: "ux", brief: "触りやすくする", priority: 8, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 18, name: "法務を確認する", skill: "legal", brief: "契約や規約を点検する", priority: 6, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 19, name: "予算を整える", skill: "finance", brief: "お金の流れを整理する", priority: 5, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 20, name: "動画を組み立てる", skill: "video", brief: "短尺動画の構成を作る", priority: 7, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 21, name: "音声素材を作る", skill: "audio", brief: "ナレーションやBGMの案を作る", priority: 6, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 22, name: "テストを自動化する", skill: "testing", brief: "確認作業を減らす", priority: 8, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 23, name: "モバイルUIを最適化する", skill: "mobile", brief: "スマホで見やすくする", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+    { id: 24, name: "デプロイを同期する", skill: "deployment", brief: "公開までの流れを安定させる", priority: 9, status: "queued", progress: 0, assignedTo: null, assignedToName: null, output: null },
+  ];
+    }
